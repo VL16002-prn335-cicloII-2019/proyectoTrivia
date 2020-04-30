@@ -1,0 +1,248 @@
+*{
+    margin:0 px;
+    padding: 0px;
+}
+body{
+    font-family: 'Electrolize', sans-serif;
+}
+
+h1{
+    text-shadow: -1px -1px 1px white;
+}
+h3{
+    text-shadow: -2px -2px 1px crimson;
+}
+h2{
+    text-shadow: -1px -1px 1px white;
+}
+
+p{
+    
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    background-color: gray;
+    border-radius: 25px;
+    text-shadow: -2px -2px 1px #071E32;
+}
+
+
+#encabezado{
+    width: 100%;
+    height: 75px;
+    background-color: #0B3C5D;
+}
+#logo{
+    width: 180px;
+    height: 80px;
+}
+
+#contenido{
+    margin: auto;
+    margin-top: 7px;
+    width: 80%;
+    height: 450px;
+    background-color:#2B78B8;
+    display: flex;
+   
+    
+}
+
+#bienvenida{
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-color: teal;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+
+#ingreso{
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nombre{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #9EAFBD;
+    border-radius: 25px;
+}
+
+#opciones{
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-color: transparent;
+    text-align: center;
+    
+}
+
+.parrafos{
+    font-size: 24px;
+    color: black;
+    text-shadow: -1px -1px 1px lightblue;
+}
+
+
+
+#items{
+    margin: auto;
+    width: 80%;
+    height: 275px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#trivia1{
+    margin: auto;
+    width: 45%;
+    height: 95%;
+    background-image: url("images/muestra1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+#trivia1Descripcion{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/muestra1a.jpg");
+    visibility: hidden;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+#trivia1:hover #trivia1Descripcion{
+    visibility: visible;
+}
+
+#trivia2{
+    margin: auto;
+    width: 45%;
+    height: 95%;
+    background-image: url("images/muestra2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;   
+}
+
+#trivia2Descripcion{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/muestra2a.jpg");
+    visibility: hidden;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+#trivia2:hover #trivia2Descripcion{
+    visibility: visible;
+}
+
+
+
+
+#preguntas{
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+#imagen{
+    margin: auto;
+    margin-top: 5px;
+    width: 40%;
+    height: 55%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+
+.bloque{
+    margin: auto;
+    margin-top: 5px;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+
+.radios{
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 23%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #071E32;
+}
+
+.radios :hover{
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+.ruedas{
+    width: 25px;
+    height: 25px;
+}
+
+#pieDePagina{
+    margin-top: 7px;
+    width: 100%;
+    height: 75px;
+    background-color: #1D2731;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnEstandar{
+    width: 140px;
+    height: 40px;
+    background-color: #8BC2F0;
+    border-radius: 30px;
+}

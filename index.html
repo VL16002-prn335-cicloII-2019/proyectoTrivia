@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivias Wayne</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="encabezado">
+        <img src="images/logo.png" id="logo">
+    </div>
+
+    <div id="contenido">
+        <div id="bienvenida">
+            <h1>Bienvenido a Trivias Wayne</h1>
+
+            <div id="ingreso">
+                <form>
+                    <label for="nombre" class="parrafos">Para empezar, ingresa tu nombre:</label><br><br><br>
+                    <input type="text" id="nombre"  placeholder="Nombre" onclick="enviar.disabled=false"/><br><br><br>
+                    <button type="submit" id="enviar" class="btnEstandar" disabled>
+                        Ingresar
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="opciones">
+            <h2 id="usuario" class="parrafos"></h2>
+            <p id="parrafoSeleccion">¡Selecciona una Trivia para jugar!</p>
+
+            <div id="items">
+                <div id="trivia1">
+                    <div id="trivia1Descripcion">
+                        <h3>Piratas del Caribe: La Trivia</h3>
+                        <p style="opacity: 0.8;">¿Eres un buen y osado marino?<br>¿Eres digno de llamarte un Pirata?<br>Atrévete a descubrirlo en esta trivia sobre Piratas del
+                            Caribe</p>
+
+                    </div>
+                </div>
+                <div id="trivia2">
+                    <div id="trivia2Descripcion">
+                        <h3>La Leyenda de Zelda: La Trivia</h3>
+                        <p style="opacity: 0.8;">¿Qué tanto conoces sobre esta legendaria saga?<br>¿Eres un digno héroe de la gran Hyrule?<br>Descúbrelo en esta trivia sobre La Leyenda de Zelda</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="preguntas">
+            <div id="imagen"></div>
+            <div id="pregunta" class="bloque"></div>
+            <div id="respuestas" class="bloque"></div>
+        </div>
+    </div>
+
+    <div id="pieDePagina">
+        <form>
+        <p id="datos"></p>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
